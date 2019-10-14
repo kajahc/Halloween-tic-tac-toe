@@ -1,0 +1,36 @@
+#container {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+}
+h1 {
+   text-align: center; 
+   font-size: 48px;
+   margin-bottom: 50px;
+}
+
+.parentDiv{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.grid {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    background-color: rgba( 0,0,0,.2) ;
+    border: 2px solid blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+buttonElement {
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    font-size: 20px;
+    border: 1px solid chocolate;
+    font-weight: bold;
+    color: whitesmoke;
+}
