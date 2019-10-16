@@ -1,12 +1,31 @@
+@font-face {
+    font-family: 'Zombie Holocaust';
+    src: url(../fonts/'ZombieHolocaust.woff2') format('woff2'),
+        url(../fonts/'ZombieHolocaust.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+
+
+
 #container {
     width: 400px;
     height: 400px;
     margin: auto;
-    
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: "Nosifer", sans-serif;
+    color: red;
+    text-shadow: 2px 2px 2px black;
 }
 h1 {
    text-align: center; 
    font-size: 48px;
+   color:green;
+   font-family: 'Zombie Holocaust', 'sans-serif';
+   font-weight: bolder;
 }
 
 .parentDiv{
@@ -16,12 +35,22 @@ h1 {
 }
 .grid {
     display: flex;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 200px;
     background-color: rgba( 0,0,0,.2) ;
-    border: 1.5px solid orange;
+    border: 3px solid orange;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
+footer {
 
+text-align: center;
+}
+p {
+    text-align: center;
+    color: ivory;
+}
+X's&O's{
+    font-family: 'Nosifer', cursive;
+}
