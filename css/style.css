@@ -4,8 +4,7 @@
         url(../fonts/'ZombieHolocaust.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    
-}
+    }
 
 
 
@@ -19,6 +18,10 @@
     font-family: "Nosifer", sans-serif;
     color: red;
     text-shadow: 2px 2px 2px black;
+    
+}
+.grid:hover {
+    background-color: purple ;
 }
 h1 {
    text-align: center; 
@@ -44,12 +47,12 @@ h1 {
     align-items: center;
 }
 footer {
-
 text-align: center;
 }
 p {
     text-align: center;
     color: ivory;
+    text-shadow: 3px 3px 3px black
 }
 /* X's&O's{
     font-family: 'Nosifer', cursive;
