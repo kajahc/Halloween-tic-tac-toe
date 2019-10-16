@@ -36,5 +36,5 @@ H1 has its own font.(Nosifer)
 images
 background
 
-Installation:
-Fonts 
+Link to page:
+https://kajahc.github.io/Halloween-tic-tac-toe/

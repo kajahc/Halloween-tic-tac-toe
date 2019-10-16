@@ -48,6 +48,8 @@ h1 {
 }
 footer {
 text-align: center;
+color: ivory;
+text-shadow: 2px 2px 2px black;
 }
 p {
     text-align: center;
