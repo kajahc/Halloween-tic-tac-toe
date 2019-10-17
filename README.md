@@ -40,8 +40,19 @@ Future ideas:
 - to display who's turn it is
 - to keep count of who won each game (best 3 out of 5)
 - I would have included a start and reset button
-- Add a brief pause after a click so the winning character will display, then show the alert
+- Add a brief pause after a click, then show the alert
 - add a strike through the winning spaces
+
+What I learned:
+- How to make a complex if... else statement
+- How to the && operators 
+- How to install fonts
+- There are almost infinite ways to accomplish the same task (everyone's code is different, no two codes are the same)
+- querySelector
+- How think out format and styling
+
+The most difficult part was working through the game logic.
+
 
 Link to page:
 https://kajahc.github.io/Halloween-tic-tac-toe/
