@@ -1,20 +1,24 @@
 const gridDivArray = document.querySelectorAll(".grid")//grabbed all the divs and created the board
-let playerMoves= [] //Empty array of player moves so they could be kept up with
+let playerMoves= [] //Empty array of player moves 
 let winner = '' // Empty quotes to insert actual winner
 let turn = "x" // turn always starts with X going first 
 
 
-// for loop to look through each box//
+// for loop to look through boxes 0-8//
  for (let i =0; i < gridDivArray.length; i++){
+     //added event listener to respond to a click in a box
     gridDivArray[i].addEventListener("click", function(){
+        //indexes player moves
         const divIndex = this.id;
         playerMoves[divIndex] = turn; 
         console.log(playerMoves);
-        this.innerText = turn   
+        this.innerText = turn  
+        //above - making the X and O's  visible
+        //below - decides whose turn it is through a ternary operator; if x's turn is false be O, if x's turn is true be x's
         turn = (turn === "x") ? "o" : "x"
-        checkWinner() //WHY DO WE CALL THE FUNCTION HERE? SOLVED
+        checkWinner() //WHY DO WE CALL THE FUNCTION HERE? SOLVED; we call the function inside the eventlistner so it checks for a winner after each click
         // console.log(turn)
-        // How do we keep the turns from being able to be switched ? SOLVED
+        // How do we keep the turns from being able to be switched ? SOLVED; by firing once
 
     }, {once: true})
 
@@ -79,8 +83,9 @@ let turn = "x" // turn always starts with X going first
             return;
         }
     }
-    // How do we move the message onto the screen instead of the console.log? SOLVED
-    // HOW CAN I CHANGE THE FONT OF THE X'S & O'S? SOLVED
+    // How do we move the message onto the screen instead of the console.log? SOLVED; alert set as long as the click doesn't equal undefined
+    // HOW CAN I CHANGE THE FONT OF THE X'S & O'S? SOLVED; inserted font-family on container
+
     // HOW DO I TELL WHOSE TURN IT IS ?Can i display this? NOT NEEDED
 
  //loop through all 8 solutions to find winner (TURNS OUT WE DONT NEED A LOOP)
@@ -91,8 +96,8 @@ let turn = "x" // turn always starts with X going first
 
  //button attempts
     // btn = document.querySelector("button")
-    // HOW DO I MAKE A RESET BUTTON THAT ACTUALLY WORKS?
-    //Can you help me finish setting my buttons?
+    // HOW DO I MAKE A RESET BUTTON THAT ACTUALLY WORKS? SOLVED BELOW(ln 101-106)
+    //Can you help me finish setting my buttons? SOLVED
 const newGameButton = document.querySelector("#new-game-button")
     newGameButton.addEventListener("click",function()
     { console.log("New Game")

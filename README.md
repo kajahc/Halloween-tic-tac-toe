@@ -36,5 +36,11 @@ H1 has its own font.(Nosifer)
 images
 background
 
+Future ideas:
+- to display who's turn it is
+- to keep count of who won each game (best 3 out of 5)
+- I would have included a start and reset button
+- Add a brief pause after a click so the winning character will display, then show the alert
+
 Link to page:
 https://kajahc.github.io/Halloween-tic-tac-toe/
