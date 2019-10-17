@@ -41,6 +41,7 @@ Future ideas:
 - to keep count of who won each game (best 3 out of 5)
 - I would have included a start and reset button
 - Add a brief pause after a click so the winning character will display, then show the alert
+- add a strike through the winning spaces
 
 Link to page:
 https://kajahc.github.io/Halloween-tic-tac-toe/
