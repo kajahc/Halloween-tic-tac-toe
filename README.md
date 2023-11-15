@@ -27,10 +27,10 @@ The game is a simple 3x3 Tic Tac Toe game. It allows 2 players to compete, to ma
 - Google Chrome Developer Tools - used to debug issues
 
 ## Approach:
-I used an if else statement to loop through the winning combinations and keep track of the player moves. When the player moves and the 
+I used an if else statement to loop through the winning combinations and keep track of the player moves.  
 
 ## How i solved for the winner:
-The winner is determined by the looping through the arrays of moves made by the player, when a winning combination is played the player is alerted that they won.
+The winner is determined by the looping through the arrays of moves made by the player, when a winning combination of moves are played the player is alerted that they won.
 
 ## Main features:
 fonts
@@ -48,11 +48,11 @@ background
 
 ## What I learned:
 - How to make a complex if... else statement
-- How to the && operators 
+- How to use the AND operators '&&'
 - How to install fonts
-- There are almost infinite ways to accomplish the same task (everyone's code is different, no two codes are the same)
+- There are almost infinite ways to accomplish the same task (everyone's code is different, no two coded programs are the same)
 - querySelector
-- How think out format and styling
+- How to think out format and styling
 
 The most difficult part was working through the game logic.
 
